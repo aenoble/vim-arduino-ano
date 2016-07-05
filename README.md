@@ -1,4 +1,6 @@
-# Vim Arduino Ino
+# Vim Arduino Ano
+
+A fork of [Vim Arduino Ino][vim-arduino-ino], but with changes to use the [Arturo][arturo] fork of [Ino][ino].
 
 This script is based on [Vim Arduino][vim-arduino], but uses the
 [Ino][ino] command line utility instead of the Java Arduino compiler.
@@ -45,8 +47,8 @@ add this to your `.vimrc`:
 ```
 let g:vim_arduino_auto_open_serial = 1
 ```
-
-
+[arturo]: https://github.com/scottdarch/Arturo
+[vim-arduino-ino]: https://github.com/jplaut/vim-arduino-ino
 [ino-config]: http://inotool.org/quickstart#configuration-files
 [ino-source]: https://pypi.python.org/pypi/ino/#downloads
 [pathogen]: http://www.vim.org/scripts/script.php?script_id=2332
