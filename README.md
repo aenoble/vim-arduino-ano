@@ -1,6 +1,6 @@
 # Vim Arduino Ano
 
-A fork of [Vim Arduino Ino][vim-arduino-ino], but with changes to use the [Arturo][arturo] fork of [Ino][ino].
+A fork of [Vim Arduino Ino][vim-arduino-ino], but with changes to use the [Arturo][arturo] fork of [Ino][ino].  **[Arturo][arturo] is broken in later versions of Arduino IDE (>1.6.1), so this won't work with the current stable release.**
 
 This script is based on [Vim Arduino][vim-arduino], but uses the
 [Ino][ino] command line utility instead of the Java Arduino compiler.
